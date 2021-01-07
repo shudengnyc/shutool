@@ -16,5 +16,5 @@ transform_dist = function(df,nbreaks = 20){
     DT::datatable(
       escape = FALSE,
       options = list(fnDrawCallback = htmlwidgets::JS('function(){HTMLWidgets.staticRender();}'))) %>%
-    spk_add_deps() 
+    sparkline::spk_add_deps() 
 }
