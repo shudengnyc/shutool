@@ -1,6 +1,6 @@
 Package: shutool
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Frequntly used functions to explore Omic data sets
 Version: 0.1.0
 Author: Shu Deng
 Maintainer: The package maintainer <yourself@somewhere.net>
