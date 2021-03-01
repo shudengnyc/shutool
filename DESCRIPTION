@@ -12,4 +12,5 @@ Imports:
 	dplyr,
 	magrittr,
 	DT,
-	sparkline
+	sparkline,
+	scales         
