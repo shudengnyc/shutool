@@ -1,6 +1,8 @@
+# df should be long format
+# tgt_var : column name of interest 
 hist_plot = function(df, tgt_var, nbreaks = 15, nbin =  30) {
   tgt_var = deparse(substitute(tgt_var))
-  tgt_var_med = round(median(pull(mtcars, tgt_var), na.rm = TRUE), 3)
+  tgt_var_med = round(median(pull(df, tgt_var), na.rm = TRUE), 3)
   ggplot(df) +
     geom_histogram(aes(x = get(tgt_var)),
                    color = "black" ,
@@ -21,6 +23,7 @@ hist_plot = function(df, tgt_var, nbreaks = 15, nbin =  30) {
 
 
 # hist_plot(mtcars,mpg, 10)
+# ... %>% hist_plot(., Columname)
 
 
 
