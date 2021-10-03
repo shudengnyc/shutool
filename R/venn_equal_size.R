@@ -1,3 +1,21 @@
+# Hello, world!
+#
+# This is an example function named 'hello' 
+# which prints 'Hello, world!'.
+#
+# You can learn more about package authoring with RStudio at:
+#
+#   http://r-pkgs.had.co.nz/
+#
+# Some useful keyboard shortcuts for package authoring:
+#
+#   Install Package:           'Cmd + Shift + B'
+#   Check Package:             'Cmd + Shift + E'
+#   Test Package:              'Cmd + Shift + T'
+
+venn_equal_size <- function() {
+  print("Hello, world!")
+}
 
 # genes <- paste("gene",1:1000,sep="")
 # x <- list(
@@ -8,16 +26,16 @@
 # )
 
 
-
-function(tgt_list){
-  ggvenn::ggvenn(
-    tgt_list, 
-    fill_color = c("#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF"),
-    stroke_size = 0.5, set_name_size = 4
-  )
-}
-
-
+# 
+# function(tgt_list){
+#   ggvenn::ggvenn(
+#     tgt_list, 
+#     fill_color = c("#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF"),
+#     stroke_size = 0.5, set_name_size = 4
+#   )
+# }
+# 
+# 
 # 
 # else if (is.list(data)) {
 #   if (is.null(columns)) {
